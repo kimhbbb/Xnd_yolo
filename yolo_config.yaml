@@ -1,0 +1,2 @@
+output_dir: '.\yolo\outputs' # output 디렉토리
+model_type: 'yolov8n.pt' # yolo 모델 설정
