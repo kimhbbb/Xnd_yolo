@@ -1,2 +1,10 @@
-output_dir: '.\yolo\outputs' # output 디렉토리
+# output_dir: 'yolo\outputs' # output 디렉토리
 model_type: 'yolov8n.pt' # yolo 모델 설정
+data_yaml: 'data/merged_data.yaml'
+epochs: 50
+batch_size: 16
+img_size: 640
+device: 'cuda:0'
+lr: 0.01
+patience: 15
+output_dir: 'output/'

@@ -5,7 +5,7 @@ from detector import IngredientDetector
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='식재료 탐지')
-    parser.add_argument('--config', type=str, default='.\yolo_config.yaml', help='설정 파일 경로')
+    parser.add_argument('--config', type=str, default='./yolo_config.yaml', help='설정 파일 경로')
     parser.add_argument('--mode', type=str, default='train', 
                         choices=['train','val','test'], help='실행 모드')
     parser.add_argument('--weights', type=str, default=None, help='학습 파람 파일 경로')
